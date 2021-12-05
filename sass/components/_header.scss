@@ -1,0 +1,56 @@
+.page-header {
+  outline: 1px solid $header-border-color;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $dominant-color;
+}
+
+.nav__item {
+  display: block;
+  margin-left: 50px;
+}
+
+.nav__item:first-child {
+  margin-left: 93px;
+}
+
+.nav__link {
+  position: relative;
+  padding: 32px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $dominant-color;
+}
+
+.nav__list .nav__link {
+  &.current {
+    color: $accent-hover-color;
+  }
+}
+
+.nav__link {
+  &.current::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: $accent-hover-color;
+  }
+}
