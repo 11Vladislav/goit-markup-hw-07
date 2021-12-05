@@ -33,6 +33,13 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: $dominant-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-hover-color;
+    fill: $accent-hover-color;
+    transition: color $duration $timing-function;
+  }
 }
 
 .nav__list .nav__link {
@@ -52,5 +59,45 @@
     width: 100%;
     border-radius: 2px;
     background-color: $accent-hover-color;
+  }
+}
+
+.connect {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.connect__icons {
+  padding: 0;
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.connect__item {
+  display: block;
+}
+
+.connect__item:first-child {
+  margin-right: 30px;
+}
+
+.connect__link {
+  display: block;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  padding: 32px 0;
+  color: $alt-text-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-hover-color;
+    fill: $accent-hover-color;
+    transition: color $duration $timing-function;
   }
 }

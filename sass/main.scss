@@ -1,5 +1,9 @@
-@import 'utils/_variables';
-@import 'normalize/_normalize';
-@import 'utils/_utils';
+@import 'utils/variables';
+@import 'utils/utils';
 @import 'components/logo';
-@import 'components/_header';
+@import 'components/header';
+@import 'components/hero';
+@import 'components/specials';
+@import 'components/activity';
+@import 'components/team';
+@import 'components/costumers';
