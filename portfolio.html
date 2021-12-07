@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio
     </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-   
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png" />
 </head>
-    <!-- Шапка страницы -->
+
 <body>
     <header class="page-header">
         <!-- Навигация на другие страницы -->
-        <div class="container">
+        <div class="container flex">
             <nav class="nav">
                 <a class="logo" href="./index.html" lang="en">
                     <span class="logo__accent">Web</span>Studio
                 </a>
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a class="nav__link--current" href="./index.html">Студия
+                        <a class="nav__link" href="./index.html">Студия
                         </a>
                     </li>
-                    <li class="nav__list">
-                        <a class="nav__item" href="./portfolio.html">Портфолио
+                    <li class="nav__item">
+                        <a class="nav__link current" href="./portfolio.html">Портфолио
                         </a>
                     </li>
-                    <li class="nav__list">
-                        <a class="nav__item" href="#">Контакты
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Контакты
                         </a>
                     </li>
                 </ul>
             </nav>
             <!-- Связь с нами -->
             <ul class="connect">
-                <li class="connect__item">
+                <li class="connect__item ">
                     <a class="connect__link" href="maito:info@devstudio.com" lang="en">
                         <svg class="connect__icons">
-                            <use href="./images/icons.svg#icon-envelope"></use>
+                            <use href="./images/icons.svg#icon-envelope" width="16" height="16"></use>
                         </svg>
                         info@devstudio.com
                     </a>
                 </li>
-                <li class="connect__item">
+                <li class="connect__item ">
                     <a class="connect__link" href="tel:+380961111111">
                         <svg class="connect__icons">
-                            <use href="./images/icons.svg#icon-smartphone"></use>
+                            <use href="./images/icons.svg#icon-smartphone" width="16" height="16"></use>
                         </svg>
                         +38 096 111 11 11
                     </a>
@@ -196,21 +200,27 @@
             <p class="portfolio__description">Маркетинг</p>
             </div>
         </li>
-        <li class="project-item">
-            <div class="portfolio-img">
-            <img src="./images/growing-business.jpg" 
-            alt="работа за ноутбуком" width="370"/>
+        <li class="project__item">
+            <div class="project__image">
+                <img src="./images/growing-business.jpg" 
+                alt="работа за ноутбуком" width="370"/>
                     <div class="project__overlay">
                         <p class="project__overlay__text">
-                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque eum porro praesentium qui perferendis necessitatibus earum. Id sed odio minus?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsum eos vel temporibus alias omnis tenetur deleniti
+                            repellat dicta! Odio!
                         </p>
                     </div>
-                </div>
+            </div>
             <div class="portfolio__heading">
-            <h2 lang="en" class="portfolio__title">Growing Business</h2>
-            <p class="portfolio__description">Приложение</p>
+                <h2 lang="en" class="portfolio__title">
+                    Growing Buisness
+                </h2>
+                <p class="portfolio__description">
+                    Приложение
+                </p>
             </div>
         </li>
+        
     </ul>
     </div>
     </section>
