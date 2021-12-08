@@ -73,7 +73,7 @@
   border-radius: 50%;
   background-color: $fourth-color;
 
-  &::nth-child(-n + 3) {
+  &:nth-child(-n + 3) {
     margin-right: 10px;
   }
 }

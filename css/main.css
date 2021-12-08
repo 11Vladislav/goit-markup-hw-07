@@ -703,7 +703,7 @@ address {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-networks__item::nth-child(-n + 3) {
+.footer-networks__item:nth-child(-n + 3) {
   margin-right: 10px;
 }
 
